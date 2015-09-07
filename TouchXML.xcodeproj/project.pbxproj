@@ -451,11 +451,11 @@
 			name = TouchXML_UnitTests;
 			productName = TouchXML_UnitTests;
 			productReference = 457940FF0D82217800EB2D22 /* TouchXML_UnitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
-		7EA5DAA316392ACF00DAF16E /* TouchXML_Framework */ = {
+		7EA5DAA316392ACF00DAF16E /* TouchXML */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EA5DAB716392ACF00DAF16E /* Build configuration list for PBXNativeTarget "TouchXML_Framework" */;
+			buildConfigurationList = 7EA5DAB716392ACF00DAF16E /* Build configuration list for PBXNativeTarget "TouchXML" */;
 			buildPhases = (
 				7EA5DA9F16392ACF00DAF16E /* Sources */,
 				7EA5DAA016392ACF00DAF16E /* Frameworks */,
@@ -466,7 +466,7 @@
 			);
 			dependencies = (
 			);
-			name = TouchXML_Framework;
+			name = TouchXML;
 			productName = Framework;
 			productReference = 7EA5DAA416392ACF00DAF16E /* TouchXML.framework */;
 			productType = "com.apple.product-type.framework";
@@ -498,7 +498,7 @@
 				456A848A0D81DB06000E29C9 /* TouchXML_Demo */,
 				457940FE0D82217800EB2D22 /* TouchXML_UnitTests */,
 				451E6E301152EB4A0024ABA5 /* Validator */,
-				7EA5DAA316392ACF00DAF16E /* TouchXML_Framework */,
+				7EA5DAA316392ACF00DAF16E /* TouchXML */,
 			);
 		};
 /* End PBXProject section */
@@ -1090,7 +1090,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7EA5DAB716392ACF00DAF16E /* Build configuration list for PBXNativeTarget "TouchXML_Framework" */ = {
+		7EA5DAB716392ACF00DAF16E /* Build configuration list for PBXNativeTarget "TouchXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EA5DAB416392ACF00DAF16E /* Debug */,
@@ -1098,6 +1098,7 @@
 				7EA5DAB616392ACF00DAF16E /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TouchXML" */ = {
 			isa = XCConfigurationList;
